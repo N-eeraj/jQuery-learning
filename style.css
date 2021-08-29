@@ -4,6 +4,7 @@
 }
 
 body{
+    padding-bottom: 5%;
     background-color: #CCC;
 }
 
@@ -13,6 +14,7 @@ body{
 
 .btn-container{
     width: 80%;
+    height: 50px;
     margin-top: 5%;
     margin-left: 5%;
     padding: 1%;
