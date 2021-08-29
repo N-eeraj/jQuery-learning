@@ -26,6 +26,17 @@ a{
     border-radius: 25px 0 0 25px;
 }
 
+
+.btn{
+    width: 150px;
+    margin-top: 10px;
+    padding: 0.5% 1%;
+    background-color: green;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
 .links{
     display: flex;
     flex-direction: row;
