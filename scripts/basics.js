@@ -1,6 +1,7 @@
 $(document).ready(function() {
     
     $("#header").html("<h1>This heading is added using jQuery</h1>");
+    $("#header").append("<a href='index.html'>Back</a>");
 
     $("#btn1").mouseenter(function () { 
         $(".btn-container:first").css("background-color", "lightgreen");

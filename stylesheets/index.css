@@ -1,0 +1,77 @@
+*{
+    margin: 0;
+    padding: 0;
+    font-family: sans-serif;
+}
+
+html{
+    scroll-behavior: smooth;
+}
+
+body{
+    padding: 5% 0;
+    background-color: #CCC;
+}
+
+h1{
+    text-align: center;
+}
+
+a{
+    margin: 1%;
+    padding: 0.5% 1%;
+    text-decoration: none;
+    background-color: midnightblue;
+    color: #FFF;
+    border-radius: 25px 0 0 25px;
+}
+
+.links{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+    flex-wrap: wrap;
+}
+
+.card{
+    width: 20vw;
+    height: 40vh;
+    margin: 3% 5%;
+    background-color: #FFF;
+    box-shadow: 0 5px 5px 3px #999;
+    border-radius: 10px;
+    cursor: pointer;
+    transition: 500ms;
+}
+.card:hover{
+    transform: translateY(-1vh);
+    box-shadow: 0 7px 15px 3px #777;
+}
+
+.banner{
+    width: 100%;
+    height: 70%;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: contain;
+}
+
+#basics_banner{
+    background-image: url("https://sptechnet.files.wordpress.com/2016/01/jquery-logo.png");
+}
+#slider_banner{
+    background-image: url("https://codetea.com/content/images/2020/04/keen-slider.png");
+}
+
+
+::-webkit-scrollbar{
+    width: 10px;
+    background-color: #0007;
+}
+::-webkit-scrollbar-thumb{
+    background-color: #0007;
+    border-radius: 24px;
+}
+::-webkit-scrollbar-thumb:hover{
+    background-color: #000A;
+}
