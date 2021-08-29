@@ -29,3 +29,24 @@
 #next{
     right: calc(20vw - 10px);
 }
+
+.indicators{
+    width: 30vw;
+    position: absolute;
+    top: 90vh;
+    left: 35vw;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+}
+
+.indicator{
+    width: 0;
+    border: 7px solid #999;
+    border-radius: 50%;
+}
+
+.current{
+    border-color: #FFF;
+    box-shadow: 0 0 0 3px #7777;
+}
