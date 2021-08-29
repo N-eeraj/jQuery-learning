@@ -1,0 +1,66 @@
+body{
+    height: 100vh;
+    padding: 0;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+
+#header{
+    position: absolute;
+    top: 10%;
+    left: 5%;
+}
+
+.btn{
+    width: 10vh;
+    height: 10vh;
+    margin: 0;
+    align-items: center;
+    background-color: #000A;
+    background-image: url("../images/arrow.png");
+    background-position: center;
+    background-size: 60%;
+    background-repeat: no-repeat;
+}
+.btn:hover{
+    background-color: #000C;
+}
+
+#joystick{
+    text-align: center;
+    padding: 3px;
+    border: 2px solid #000;
+    border-radius: 10px;
+}
+
+#up{
+    transform: rotate(-90deg);
+}
+#down{
+    transform: rotate(90deg);
+}
+#left{
+    transform: rotate(180deg);
+}
+#change{
+    background-image: none;
+}
+
+#frame{
+    width: 80vh;
+    height: 80vh;
+    padding: 0.5%;
+    background-color: darkslategrey;
+    border: 5px double #000;
+}
+
+#character{
+    width: 10%;
+    height: 10%;
+    margin-top: 90%;
+    box-sizing: border-box;
+    background-color: red;
+    border: 7px solid #000A;
+    border-radius: 50%;
+}

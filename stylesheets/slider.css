@@ -17,17 +17,23 @@
 .btn{
     width: auto;
     margin: unset;
-    padding: 1% 2%;
+    padding: 1% 1.75%;
     position: absolute;
     top: 50%;
     background-color: #0009;
     color: #FFF;
+    transition: 250ms;
 }
 .btn:hover{
+    padding: 1% 2.5%;
     background-color: #000C;
+}
+#prev{
+    border-radius: 0 20px 20px 0;
 }
 #next{
     right: calc(20vw - 10px);
+    border-radius: 20px 0 0 20px;
 }
 
 .indicators{
@@ -47,6 +53,6 @@
 }
 
 .current{
-    border-color: #FFF;
+    border-color: #555;
     box-shadow: 0 0 0 3px #7777;
 }

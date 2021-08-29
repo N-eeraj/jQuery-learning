@@ -11,6 +11,7 @@ function nextSlide(){
 
     let nextImg = $(".active").next();
     let nextIndicator = $(".current").next();
+
     $(".active").removeClass("active");
     $(".current").removeClass("current");
     if($(nextImg).hasClass("slide"))
@@ -30,6 +31,7 @@ function prevSlide(){
 
     let prevImg = $(".active").prev();
     let prevIndicator = $(".current").prev();
+
     $(".active").removeClass("active");
     $(".current").removeClass("current");
     if($(prevImg).hasClass("slide"))

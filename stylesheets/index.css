@@ -19,7 +19,7 @@ h1{
 
 a{
     margin: 1%;
-    padding: 0.5% 1%;
+    padding: 10px 15px;
     text-decoration: none;
     background-color: midnightblue;
     color: #FFF;
@@ -72,6 +72,9 @@ a{
 }
 #slider_banner{
     background-image: url("https://codetea.com/content/images/2020/04/keen-slider.png");
+}
+#joystick_banner{
+    background-image: url("https://www.101computing.net/wp/wp-content/uploads/arrowKeys-300x205.png");
 }
 
 
