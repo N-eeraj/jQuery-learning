@@ -76,6 +76,9 @@ a{
 #joystick_banner{
     background-image: url("https://www.101computing.net/wp/wp-content/uploads/arrowKeys-300x205.png");
 }
+#memory_banner{
+    background-image: url("http://cdn.shopify.com/s/files/1/1017/7659/products/Maple_Landmark_Memory_Tiles_Environment_grande.jpg");
+}
 
 
 ::-webkit-scrollbar{
