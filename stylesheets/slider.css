@@ -32,7 +32,7 @@
     border-radius: 0 20px 20px 0;
 }
 #next{
-    right: calc(20vw - 10px);
+    right: 20vw;
     border-radius: 20px 0 0 20px;
 }
 
@@ -55,4 +55,11 @@
 .current{
     border-color: #555;
     box-shadow: 0 0 0 3px #7777;
+}
+
+@media (min-width: 1366px) and (min-aspect-ratio : 3/4)
+{
+    #next{
+        right: calc(20vw - 10px);
+    }
 }

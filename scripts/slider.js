@@ -2,7 +2,7 @@ $(document).ready(function() {
     
     $("#header").html("<a href='index.html'>Back</a>");
 
-    $("#next").on("click", nextSlide);
+    $("#next").on("click", nextSlide)
     $("#prev").on("click", prevSlide);
 
 });

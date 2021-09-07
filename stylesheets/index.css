@@ -46,7 +46,9 @@ a{
 
 .card{
     width: 20vw;
+    min-width: 200px;
     height: 40vh;
+    min-height: 200px;
     margin: 3% 5%;
     background-color: #FFF;
     box-shadow: 0 5px 5px 3px #999;
